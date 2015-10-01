@@ -1,0 +1,537 @@
+/* line 15, D:/QUB Work/sass/sass-tutorial.scss */
+p {
+  border: 1px solid; }
+
+/* line 1, D:/QUB Work/sass/_sass-tutorial-header.scss */
+#header_wrap {
+  width: 100%;
+  background: black; }
+
+/* line 6, D:/QUB Work/sass/_sass-tutorial-header.scss */
+#header_holder {
+  width: 960px;
+  height: 90px;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* line 13, D:/QUB Work/sass/_sass-tutorial-header.scss */
+#header {
+  width: 960px;
+  padding: 0px;
+  background: #fff; }
+
+/* line 19, D:/QUB Work/sass/_sass-tutorial-header.scss */
+#header_logo {
+  float: left;
+  margin: 5px 0px 10px 0px;
+  width: 191px; }
+
+/* line 25, D:/QUB Work/sass/_sass-tutorial-header.scss */
+#header_right {
+  width: 769px;
+  float: left;
+  margin: 10px 0px 10px 0px;
+  color: red;
+  text-align: right; }
+  /* line 32, D:/QUB Work/sass/_sass-tutorial-header.scss */
+  #header_right ul {
+    list-style-type: none;
+    padding: 16px 0px 0px 0px;
+    margin: 0 0 0 0;
+    font-size: 120%; }
+  /* line 39, D:/QUB Work/sass/_sass-tutorial-header.scss */
+  #header_right ul li {
+    display: inline; }
+  /* line 43, D:/QUB Work/sass/_sass-tutorial-header.scss */
+  #header_right ul li a:link, #header_right ul li a:visited, #header_right ul li a:hover, #header_right ul li a:active {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold; }
+  /* line 49, D:/QUB Work/sass/_sass-tutorial-header.scss */
+  #header_right #main_search {
+    float: right; }
+  /* line 53, D:/QUB Work/sass/_sass-tutorial-header.scss */
+  #header_right #main_search form {
+    width: 199px;
+    height: 27px;
+    margin: 0;
+    background-image: url("/home/media/Media,241677,en.jpg");
+    background-repeat: no-repeat;
+    background-position: left top; }
+
+/* ---------- Mega Drop Down --------- */
+/* line 3, D:/QUB Work/sass/_sass-tutorial-menus.scss */
+#mega {
+  float: right;
+  list-style-type: none;
+  padding: 11px 0px 0px 0px;
+  margin: 0px -9px 0px 0px;
+  font-size: 96%; }
+  /* line 11, D:/QUB Work/sass/_sass-tutorial-menus.scss */
+  #mega li {
+    position: relative;
+    padding: 0 11px;
+    border-left: white 1px solid;
+    display: inline;
+    float: left; }
+  /* line 19, D:/QUB Work/sass/_sass-tutorial-menus.scss */
+  #mega li.first {
+    border: none; }
+  /* line 23, D:/QUB Work/sass/_sass-tutorial-menus.scss */
+  #mega li:last-child {
+    padding: 0 0 0 11px; }
+  /* line 27, D:/QUB Work/sass/_sass-tutorial-menus.scss */
+  #mega li:hover {
+    z-index: 1;
+    /* shadow above adjacent li */ }
+
+/* line 32, D:/QUB Work/sass/_sass-tutorial-menus.scss */
+nav.social-media {
+  float: right;
+  margin-bottom: 4px; }
+
+/* line 34, D:/QUB Work/sass/_sass-tutorial-menus.scss */
+#header_right nav.social-media ul {
+  padding: 1px 10px 0 0; }
+
+/* line 35, D:/QUB Work/sass/_sass-tutorial-menus.scss */
+#header_right nav.social-media ul li {
+  padding: 0 0 0 2px; }
+
+/******** Right-hand Levels Menu *********/
+/* line 42, D:/QUB Work/sass/_sass-tutorial-menus.scss */
+#vertical_nav img {
+  margin: 0 4px 0 5px; }
+
+/* line 44, D:/QUB Work/sass/_sass-tutorial-menus.scss */
+#vertical_menu_list {
+  background: #efefef;
+  margin: 0; }
+  /* line 49, D:/QUB Work/sass/_sass-tutorial-menus.scss */
+  #vertical_menu_list h3 {
+    background: #AF1E2D;
+    padding: 5px;
+    color: white;
+    font-size: 105%;
+    margin: 0; }
+  /* line 51, D:/QUB Work/sass/_sass-tutorial-menus.scss */
+  #vertical_menu_list > ul {
+    padding: 0 10px 10px 10px; }
+  /* line 53, D:/QUB Work/sass/_sass-tutorial-menus.scss */
+  #vertical_menu_list ul.multilevel-linkul-0 li {
+    border-bottom: 1px dotted #cccccc;
+    padding: 5px 0; }
+  /* line 55, D:/QUB Work/sass/_sass-tutorial-menus.scss */
+  #vertical_menu_list > ul li a {
+    color: #000000;
+    font-weight: normal; }
+  /* line 57, D:/QUB Work/sass/_sass-tutorial-menus.scss */
+  #vertical_menu_list ul li {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold; }
+    /* line 63, D:/QUB Work/sass/_sass-tutorial-menus.scss */
+    #vertical_menu_list ul li span.currentbranch1 {
+      color: #990000;
+      font-weight: bold; }
+  /* line 66, D:/QUB Work/sass/_sass-tutorial-menus.scss */
+  #vertical_menu_list .currentbranch0 {
+    font-weight: bold; }
+  /* line 71, D:/QUB Work/sass/_sass-tutorial-menus.scss */
+  #vertical_menu_list #funders_logo {
+    margin-top: 10px; }
+  /* line 75, D:/QUB Work/sass/_sass-tutorial-menus.scss */
+  #vertical_menu_list #funders_logo img {
+    margin: 5px 0 0 0;
+    padding: 0; }
+
+/**--BREADCRUMB--**/
+/* line 2, D:/QUB Work/sass/_sass-tutorial-breadcrumb.scss */
+.bread-crumb {
+  font-size: 90%;
+  margin: 6px 0 0 0; }
+  /* line 6, D:/QUB Work/sass/_sass-tutorial-breadcrumb.scss */
+  .bread-crumb #final-arrow {
+    float: left;
+    display: none; }
+  /* line 11, D:/QUB Work/sass/_sass-tutorial-breadcrumb.scss */
+  .bread-crumb .menu {
+    display: inline;
+    list-style: none;
+    float: right;
+    font-size: 120%;
+    margin: 0; }
+  /* line 19, D:/QUB Work/sass/_sass-tutorial-breadcrumb.scss */
+  .bread-crumb .menu li {
+    float: left; }
+  /* line 23, D:/QUB Work/sass/_sass-tutorial-breadcrumb.scss */
+  .bread-crumb .menu a, .bread-crumb .menu a:link, .bread-crumb .menu a:visited, .bread-crumb .menu a:hover, .bread-crumb .menu a:active {
+    color: #000; }
+
+/* Main search form */
+/* line 2, D:/QUB Work/sass/_sass-tutorial-forms.scss */
+#main_search form input {
+  margin: 0px 3px 0px 0px;
+  padding: 0px 2px 0px 4px;
+  width: 155px;
+  height: 25px;
+  border: 0px;
+  background: transparent;
+  color: #7f7467;
+  font-weight: bold;
+  font-size: 80%;
+  float: left; }
+
+/* line 14, D:/QUB Work/sass/_sass-tutorial-forms.scss */
+#main_search .submit_button {
+  border: 0px;
+  vertical-align: middle;
+  height: 27px;
+  width: 21px; }
+
+/* line 20, D:/QUB Work/sass/_sass-tutorial-forms.scss */
+.submit input {
+  border: 0px;
+  color: #7f7467; }
+
+/*--------[ Form ] ---------*/
+/* line 26, D:/QUB Work/sass/_sass-tutorial-forms.scss */
+.magnifying_glass {
+  vertical-align: middle; }
+
+/* line 29, D:/QUB Work/sass/_sass-tutorial-forms.scss */
+.search_box {
+  margin: 0px 0px 0px 0px;
+  padding: 1px 0px 1px 0px;
+  color: #7f7467;
+  vertical-align: middle;
+  font-size: 125%;
+  float: right;
+  width: 183px; }
+
+/* line 1, D:/QUB Work/sass/_sass-tutorial-global.scss */
+body {
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center top;
+  font-size: 75%;
+  color: #0e0d0d; }
+
+/* line 9, D:/QUB Work/sass/_sass-tutorial-global.scss */
+a:link, a:visited, a:active {
+  text-decoration: none; }
+
+/* line 10, D:/QUB Work/sass/_sass-tutorial-global.scss */
+a:hover {
+  text-decoration: underline; }
+
+/*--------[ Content Holder ] ---------*/
+/* line 15, D:/QUB Work/sass/_sass-tutorial-global.scss */
+#main_content_holder {
+  background: #fff;
+  margin-bottom: 10px; }
+
+/* line 20, D:/QUB Work/sass/_sass-tutorial-global.scss */
+#levels-content {
+  line-height: 160%; }
+
+/* line 24, D:/QUB Work/sass/_sass-tutorial-global.scss */
+#page_title {
+  font-size: 1.5em; }
+
+/* line 31, D:/QUB Work/sass/_sass-tutorial-global.scss */
+.container .grid_4 {
+  margin-left: 5px;
+  margin-right: 5px; }
+
+/* line 32, D:/QUB Work/sass/_sass-tutorial-global.scss */
+.container .grid_4.alpha {
+  margin-left: 0; }
+
+/* line 33, D:/QUB Work/sass/_sass-tutorial-global.scss */
+.container .grid_4.omega {
+  margin-right: 0; }
+
+/***** Headings *****/
+/* line 43, D:/QUB Work/sass/_sass-tutorial-global.scss */
+#main_content_holder h1 {
+  color: #AF1E2D;
+  font-size: 1.5em; }
+
+/* line 44, D:/QUB Work/sass/_sass-tutorial-global.scss */
+#main_content_holder h2 {
+  color: #AF1E2D;
+  font-size: 1.3em; }
+
+/* line 45, D:/QUB Work/sass/_sass-tutorial-global.scss */
+#main_content_holder h3 {
+  color: #AF1E2D;
+  font-size: 1.15em; }
+
+/* line 46, D:/QUB Work/sass/_sass-tutorial-global.scss */
+#main_content_holder h4 {
+  color: #AF1E2D;
+  font-size: 1em; }
+
+/* line 47, D:/QUB Work/sass/_sass-tutorial-global.scss */
+#main_content_holder h5 {
+  color: #AF1E2D;
+  font-size: 0.9em; }
+
+/* line 48, D:/QUB Work/sass/_sass-tutorial-global.scss */
+#main_content_holder h6 {
+  color: #AF1E2D;
+  font-size: 0.8em; }
+
+/****TABLE STYLE****/
+/* line 52, D:/QUB Work/sass/_sass-tutorial-global.scss */
+td, th {
+  padding: 5px;
+  border: 1px solid #999; }
+
+/****TABLE STYLE 1****/
+/* line 57, D:/QUB Work/sass/_sass-tutorial-global.scss */
+.table_style_1 td, .table_style_1 th {
+  padding: 10px;
+  border: 1px solid #EEE;
+  color: #666;
+  background: url(/home/media/Media,226671,en.png) repeat-x #F8F8F8; }
+
+/*apply class noborder to remove borders*/
+/* line 65, D:/QUB Work/sass/_sass-tutorial-global.scss */
+.noborder, .noborder tr, .noborder th, .noborder td {
+  border: none; }
+
+/*templates using tables for layout - images_in_line_align_centre, images_in_line_align_centre_with_links */
+/* line 69, D:/QUB Work/sass/_sass-tutorial-global.scss */
+#images_in_line_align_centre tr, #images_in_line_align_centre td, #images_in_line_align_centre th {
+  padding: 0;
+  border: 0; }
+
+/* line 72, D:/QUB Work/sass/_sass-tutorial-global.scss */
+#images_in_line_align_centre_with_links tr, #images_in_line_align_centre_with_links td, #images_in_line_align_centre_with_links th {
+  padding: 0;
+  border: 0; }
+
+/****TYPOGRAPHY: NOTICE****/
+/* line 79, D:/QUB Work/sass/_sass-tutorial-global.scss */
+blockquote {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: transparent;
+  background-image: url("/home/media/Media,245321,en.png");
+  background-origin: padding-box;
+  background-position: 20px -5px;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  font-family: 'Droid Serif',arial,serif;
+  font-size: 1.2em;
+  font-style: italic;
+  line-height: 1.8em;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 0;
+  text-align: justify; }
+
+/***** Links *****/
+/* line 108, D:/QUB Work/sass/_sass-tutorial-global.scss */
+.grid_9 a:link, .grid_9 a:visited, .grid_9 a:hover, .grid_9 a:active {
+  color: #AF1E2D; }
+
+/* line 109, D:/QUB Work/sass/_sass-tutorial-global.scss */
+.video_text_block a:link, .video_text_block a:visited, .video_text_block a:hover, .video_text_block a:active {
+  color: #fff; }
+
+/***** Embed Video *****/
+/* line 113, D:/QUB Work/sass/_sass-tutorial-global.scss */
+.tm_embedvideo_videosource {
+  display: none; }
+
+/* line 117, D:/QUB Work/sass/_sass-tutorial-global.scss */
+.video-js {
+  max-width: 100%;
+  width: 100%;
+  margin: 1em 0; }
+
+/*misc*/
+/* line 125, D:/QUB Work/sass/_sass-tutorial-global.scss */
+#cf-menu {
+  display: none;
+  /* show study at queens menu across the course finder */ }
+
+/* line 126, D:/QUB Work/sass/_sass-tutorial-global.scss */
+.clearer {
+  clear: both; }
+
+/*standard slimbox/fancybox padding for galleries*/
+/* line 130, D:/QUB Work/sass/_sass-tutorial-global.scss */
+.fancybox img {
+  margin: 0 10px 10px 0; }
+
+/*slideshow padding for caption too wide (extra 10px to right)*/
+/* line 136, D:/QUB Work/sass/_sass-tutorial-global.scss */
+#slideshow .caption {
+  padding: 10px 5px; }
+
+/*--- [Footer] -------------------*/
+/* line 4, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+#footer_wrap {
+  background: #f5f5f5;
+  border-bottom: 1px solid #ccc;
+  padding: 0;
+  margin: 0 auto; }
+
+/* line 12, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+#footer {
+  margin: auto;
+  width: 960px;
+  text-align: left;
+  background-color: #f5f5f5;
+  color: #7f7467;
+  padding: 10px 0px 10px 0px; }
+  /* line 20, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+  #footer a:link, #footer a:visited, #footer a:hover, #footer a:active {
+    color: #7f7467; }
+  /* line 25, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+  #footer .container .grid_4 {
+    padding: 10px 0 10px 20px;
+    width: 212px; }
+  /* line 27, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+  #footer .container h3 {
+    padding: 0 0 10px 0;
+    font-size: 10pt;
+    margin: 0; }
+  /* line 29, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+  #footer .container ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+    /* line 33, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+    #footer .container ul li {
+      font-size: 100%;
+      line-height: 1.25em; }
+
+/*footer bottom - START*/
+/* line 44, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+#footer_bottom_wrap {
+  width: 100%;
+  background: #fff;
+  padding-bottom: 50px; }
+
+/* line 49, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+#footer_bottom {
+  margin: auto;
+  width: 960px;
+  padding: 11px 0 0 0;
+  color: #7F7467;
+  font-size: 90%; }
+  /* line 55, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+  #footer_bottom li {
+    list-style: none; }
+  /* line 58, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+  #footer_bottom a {
+    color: #7f7467; }
+  /* line 61, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+  #footer_bottom img {
+    margin-top: 10px; }
+
+/*logos*/
+/* line 70, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+#footerAnniversaryPrizes, #footerRusselGroup, #footerQAA, #athena-swan, #together-beyond {
+  border-right: 1px dotted #CCCCCC;
+  float: left;
+  min-height: 90px;
+  padding: 0 20px; }
+
+/* line 77, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+#footerAnniversaryPrizes {
+  padding-left: 10px; }
+
+/* line 78, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+#footerRusselGroup img {
+  width: 150px; }
+
+/* line 79, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+#together-beyond {
+  border-right: none; }
+
+/*address, contact and social media*/
+/* line 84, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+#footerAddress {
+  width: 960px;
+  padding: 10px;
+  clear: both; }
+
+/* line 85, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+#qub-footer-address-inc {
+  display: block;
+  float: left;
+  margin-bottom: 3px;
+  margin-right: 15px; }
+
+/* line 86, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+#qub-footer-links-inc {
+  display: block;
+  float: left;
+  width: 260px; }
+
+/* line 88, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+#footerContact {
+  width: 960px;
+  padding: 0 10px;
+  clear: both; }
+
+/* line 89, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+#footerContact span {
+  margin-right: 15px; }
+
+/* line 91, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+#social-media-inc {
+  position: relative;
+  margin-left: 25px; }
+  /* line 94, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+  #social-media-inc .facebook {
+    bottom: -2px;
+    position: absolute;
+    right: -25px; }
+  /* line 95, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+  #social-media-inc .twitter {
+    bottom: -2px;
+    position: absolute;
+    right: -5px; }
+
+/* footer bottom - END */
+/* line 100, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+.footerCell h3 {
+  font-size: 115%; }
+  /* line 102, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+  .footerCell h3 a {
+    color: #7f7467; }
+
+/* line 106, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+.footerCell ul {
+  padding: 0; }
+  /* line 108, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+  .footerCell ul li {
+    padding: 4px 0;
+    list-style-type: none; }
+  /* line 109, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+  .footerCell ul a {
+    color: #7f7467; }
+
+/* line 111, D:/QUB Work/sass/_sass-tutorial-footer.scss */
+.footerCell .more a {
+  color: #c1131e;
+  font-weight: bold; }
+
+/*# sourceMappingURL=sass-tutorial.css.map */

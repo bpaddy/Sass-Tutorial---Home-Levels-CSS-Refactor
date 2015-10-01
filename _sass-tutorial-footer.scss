@@ -1,0 +1,116 @@
+/*--- [Footer] -------------------*/
+
+
+#footer_wrap {
+    background: #f5f5f5;
+    border-bottom: 1px solid #ccc;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+#footer {
+    @include centre-float();		
+    text-align: left;
+    background-color: #f5f5f5;
+    color: #7f7467;
+    padding: 10px 0px 10px 0px;	
+
+
+    a:link, a:visited, a:hover, a:active { color: #7f7467; }
+
+
+    .container { 
+        
+        .grid_4 { padding: 10px 0 10px 20px; width: 212px; }
+
+        h3 { padding: 0 0 10px 0; font-size: 10pt; margin: 0; }
+
+        ul { 
+            padding: 0;
+            margin: 0; 
+            list-style: none; 
+            li { font-size: 100%;line-height: 1.25em; }
+        }
+    }
+
+
+}	
+
+
+
+/*footer bottom - START*/
+
+#footer_bottom_wrap {
+    width: 100%;
+    background: #fff;
+    padding-bottom: 50px;
+}
+#footer_bottom {
+    @include centre-float();		
+    padding: 11px 0 0 0;
+    color: #7F7467;
+    font-size:90%;
+    
+    li{
+        list-style:none;
+    }
+    a { 
+        color: $secondary-color;
+    }		
+    img { 
+        margin-top: 10px;
+    }
+    
+}	
+ 
+
+
+/*logos*/
+#footerAnniversaryPrizes, #footerRusselGroup, #footerQAA,  #athena-swan, #together-beyond{
+    border-right: 1px dotted #CCCCCC;
+    float: left;
+    min-height: 90px;
+    padding: 0 20px;
+}
+
+#footerAnniversaryPrizes{padding-left:10px;}
+#footerRusselGroup img { width: 150px; }
+#together-beyond { border-right: none; }
+
+
+
+/*address, contact and social media*/
+#footerAddress { width: 960px; padding: 10px; clear: both; }
+#qub-footer-address-inc { display: block; float: left; margin-bottom: 3px; margin-right: 15px; }
+#qub-footer-links-inc { display: block; float: left; width: 260px; }
+
+#footerContact { width: 960px; padding: 0 10px; clear: both; }
+#footerContact span { margin-right: 15px; }	
+
+#social-media-inc { 
+    position: relative; 
+    margin-left: 25px; 
+    .facebook { bottom: -2px; position: absolute; right: -25px; }
+    .twitter { bottom: -2px; position: absolute; right: -5px; }
+}
+
+/* footer bottom - END */
+.footerCell {
+    h3 {
+        font-size: 115%;
+        a {
+            color: $secondary-color;
+        }
+    }
+    ul {
+        padding: 0;
+        li { padding: 4px 0; list-style-type: none; }
+        a {	color: $secondary-color; }
+    }	
+    .more a {	
+        color: #c1131e;
+        font-weight: bold;
+    }
+}
+

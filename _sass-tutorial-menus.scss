@@ -1,0 +1,81 @@
+/* ---------- Mega Drop Down --------- */
+
+	#mega {
+        
+		float: right;
+		list-style-type: none;
+		padding: 11px 0px 0px 0px;
+		margin: 0px -9px 0px 0px;
+		font-size: 96%;
+        
+        li {
+            position:relative;
+            padding: 0 11px;
+            border-left: white 1px solid; 
+            display:inline;
+            float: left;
+        }
+
+        li.first { 
+            border: none; 
+        }
+
+        li:last-child { 
+            padding: 0 0 0 11px; 
+        }
+
+        li:hover {
+           z-index:1; /* shadow above adjacent li */
+        }
+	}
+
+	nav.social-media { float: right; margin-bottom: 4px; }
+
+	#header_right nav.social-media ul { padding: 1px 10px 0 0; }
+	#header_right nav.social-media ul li { padding: 0 0 0 2px; }
+
+
+
+
+
+/******** Right-hand Levels Menu *********/ 
+#vertical_nav img {margin: 0 4px 0 5px;}  
+
+#vertical_menu_list{
+    
+    background: #efefef;
+    margin: 0;
+    
+    h3 {background: #AF1E2D; padding: 5px; color: white; font-size: 105%; margin:0;} 
+    
+    > ul {padding: 0 10px 10px 10px;} 
+    
+    ul.multilevel-linkul-0 li {border-bottom: 1px dotted #cccccc; padding: 5px 0;} 
+    
+     > ul li a {color: #000000; font-weight:normal;}  
+    
+    ul li {
+        border-bottom: 1px solid #cccccc;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+        display: block; font-weight:bold;
+        
+        span.currentbranch1 { color: #990000; font-weight: bold; }
+    }
+  
+    .currentbranch0 {
+        font-weight: bold;
+    }
+
+
+    #funders_logo {
+        margin-top: 10px;
+    }
+
+    #funders_logo img{
+        margin: 5px 0 0 0;
+        padding: 0;
+    }
+}
+
+

@@ -1,0 +1,142 @@
+    body {
+		background-color: #fff;
+		background-repeat: no-repeat;
+		background-position: center top;
+		font-size: 75%;
+	    color: #0e0d0d; 
+	}
+
+	a:link, a:visited, a:active { text-decoration:none; }
+	a:hover{ text-decoration:underline; }
+ 
+
+/*--------[ Content Holder ] ---------*/
+
+	#main_content_holder {
+        background: #fff;
+  		margin-bottom:10px;
+    }
+	
+	#levels-content{
+  		line-height:160%;
+	}
+
+	#page_title {
+        	font-size: 1.5em;
+    }
+
+
+    
+	.container {
+        .grid_4 { margin-left: 5px; margin-right: 5px; }
+        .grid_4.alpha { margin-left: 0; }
+        .grid_4.omega { margin-right: 0; }
+    }
+
+	
+
+	
+
+		
+    /***** Headings *****/   
+    #main_content_holder {
+        h1 {color: $primary-color; font-size: 1.5em;}   
+        h2 {color: $primary-color; font-size: 1.3em;}   
+        h3 {color: $primary-color; font-size: 1.15em;}   
+        h4 {color: $primary-color; font-size: 1em;}   
+        h5 {color: $primary-color; font-size: 0.9em;}   
+        h6 {color: $primary-color; font-size: 0.8em;}       
+    }
+
+/****TABLE STYLE****/
+td, th {padding: 5px; border:1px solid #999}
+
+
+
+/****TABLE STYLE 1****/
+.table_style_1 td, .table_style_1 th {
+	padding: 10px; 
+	border: 1px solid #EEE; 
+	color: #666; 
+	background: url(/home/media/Media,226671,en.png) repeat-x #F8F8F8;
+}
+
+/*apply class noborder to remove borders*/
+.noborder, .noborder tr, .noborder th, .noborder td { border: none; }
+
+
+/*templates using tables for layout - images_in_line_align_centre, images_in_line_align_centre_with_links */
+#images_in_line_align_centre tr, #images_in_line_align_centre td, #images_in_line_align_centre th {
+  padding: 0; border: 0;
+}
+#images_in_line_align_centre_with_links tr, #images_in_line_align_centre_with_links td, #images_in_line_align_centre_with_links th {
+  padding: 0; border: 0;
+}
+
+
+
+/****TYPOGRAPHY: NOTICE****/
+blockquote {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("/home/media/Media,245321,en.png");
+    background-origin: padding-box;
+    background-position: 20px -5px;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    font-family: 'Droid Serif',arial,serif;
+    font-size: 1.2em;
+    font-style: italic;
+    line-height: 1.8em;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 0;
+    text-align: justify;
+}
+
+
+/***** Links *****/  
+.grid_9 a:link, .grid_9 a:visited, .grid_9 a:hover, .grid_9 a:active {color: #AF1E2D; }
+.video_text_block a:link, .video_text_block a:visited, .video_text_block a:hover, .video_text_block a:active {color: #fff; }
+
+/***** Embed Video *****/      
+    
+.tm_embedvideo_videosource {
+  display: none;
+}          
+
+.video-js {
+	max-width: 100%;
+  	width:100%;
+  	margin:1em 0;
+}
+
+
+/*misc*/
+	#cf-menu{display:none; /* show study at queens menu across the course finder */}
+	.clearer {
+		clear: both;
+	}
+        /*standard slimbox/fancybox padding for galleries*/
+        .fancybox img {
+       	 	margin: 0 10px 10px 0;
+        }
+
+
+        /*slideshow padding for caption too wide (extra 10px to right)*/
+        #slideshow .caption { 
+  		padding: 10px 5px;	
+	}
+		
+
+
+

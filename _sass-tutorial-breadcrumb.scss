@@ -1,0 +1,26 @@
+/**--BREADCRUMB--**/
+.bread-crumb { 
+    font-size: 90%; 
+    margin: 6px 0 0 0; 
+
+    #final-arrow {
+        float: left;
+                display: none;
+    }
+
+    .menu {
+        display: inline;
+        list-style: none;
+        float: right;
+        font-size: 120%;
+        margin: 0;
+    }
+
+    .menu li {
+        float: left;
+    }
+
+    .menu a, .menu a:link, .menu a:visited, .menu a:hover, .menu a:active {
+        color: #000;
+    }
+}	
