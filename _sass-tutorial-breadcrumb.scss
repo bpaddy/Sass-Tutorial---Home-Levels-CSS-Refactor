@@ -1,5 +1,6 @@
 /**--BREADCRUMB--**/
 .bread-crumb { 
+    
     font-size: 90%; 
     margin: 6px 0 0 0; 
 
@@ -14,13 +15,13 @@
         float: right;
         font-size: 120%;
         margin: 0;
-    }
+        li {
+            float: left;
+        }
 
-    .menu li {
-        float: left;
+        a, a:link, a:visited, a:hover, a:active {
+            color: #000;
+        }
     }
-
-    .menu a, .menu a:link, .menu a:visited, .menu a:hover, .menu a:active {
-        color: #000;
-    }
-}	
+    
+}//end .bread-crumb

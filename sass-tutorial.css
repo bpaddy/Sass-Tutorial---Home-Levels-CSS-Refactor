@@ -152,59 +152,55 @@ nav.social-media {
 .bread-crumb {
   font-size: 90%;
   margin: 6px 0 0 0; }
-  /* line 6, D:/QUB Work/sass/_sass-tutorial-breadcrumb.scss */
+  /* line 7, D:/QUB Work/sass/_sass-tutorial-breadcrumb.scss */
   .bread-crumb #final-arrow {
     float: left;
     display: none; }
-  /* line 11, D:/QUB Work/sass/_sass-tutorial-breadcrumb.scss */
+  /* line 12, D:/QUB Work/sass/_sass-tutorial-breadcrumb.scss */
   .bread-crumb .menu {
     display: inline;
     list-style: none;
     float: right;
     font-size: 120%;
     margin: 0; }
-  /* line 19, D:/QUB Work/sass/_sass-tutorial-breadcrumb.scss */
-  .bread-crumb .menu li {
-    float: left; }
-  /* line 23, D:/QUB Work/sass/_sass-tutorial-breadcrumb.scss */
-  .bread-crumb .menu a, .bread-crumb .menu a:link, .bread-crumb .menu a:visited, .bread-crumb .menu a:hover, .bread-crumb .menu a:active {
-    color: #000; }
+    /* line 18, D:/QUB Work/sass/_sass-tutorial-breadcrumb.scss */
+    .bread-crumb .menu li {
+      float: left; }
+    /* line 22, D:/QUB Work/sass/_sass-tutorial-breadcrumb.scss */
+    .bread-crumb .menu a, .bread-crumb .menu a:link, .bread-crumb .menu a:visited, .bread-crumb .menu a:hover, .bread-crumb .menu a:active {
+      color: #000; }
 
-/* Main search form */
 /* line 2, D:/QUB Work/sass/_sass-tutorial-forms.scss */
 #main_search form input {
-  margin: 0px 3px 0px 0px;
-  padding: 0px 2px 0px 4px;
+  margin: 0 3px 0 0;
+  padding: 0 2px 0 4px;
   width: 155px;
   height: 25px;
-  border: 0px;
+  border: 0;
   background: transparent;
   color: #7f7467;
   font-weight: bold;
   font-size: 80%;
   float: left; }
+  /* line 14, D:/QUB Work/sass/_sass-tutorial-forms.scss */
+  #main_search form input .submit_button {
+    border: 0px;
+    vertical-align: middle;
+    height: 27px;
+    width: 21px; }
+  /* line 20, D:/QUB Work/sass/_sass-tutorial-forms.scss */
+  #main_search form input .submit input {
+    border: 0px;
+    color: #7f7467; }
 
-/* line 14, D:/QUB Work/sass/_sass-tutorial-forms.scss */
-#main_search .submit_button {
-  border: 0px;
-  vertical-align: middle;
-  height: 27px;
-  width: 21px; }
-
-/* line 20, D:/QUB Work/sass/_sass-tutorial-forms.scss */
-.submit input {
-  border: 0px;
-  color: #7f7467; }
-
-/*--------[ Form ] ---------*/
-/* line 26, D:/QUB Work/sass/_sass-tutorial-forms.scss */
+/* line 27, D:/QUB Work/sass/_sass-tutorial-forms.scss */
 .magnifying_glass {
   vertical-align: middle; }
 
-/* line 29, D:/QUB Work/sass/_sass-tutorial-forms.scss */
+/* line 30, D:/QUB Work/sass/_sass-tutorial-forms.scss */
 .search_box {
-  margin: 0px 0px 0px 0px;
-  padding: 1px 0px 1px 0px;
+  margin: 0;
+  padding: 1px 0 1px 0;
   color: #7f7467;
   vertical-align: middle;
   font-size: 125%;
@@ -301,22 +297,25 @@ td, th {
 
 /*apply class noborder to remove borders*/
 /* line 65, D:/QUB Work/sass/_sass-tutorial-global.scss */
-.noborder, .noborder tr, .noborder th, .noborder td {
+.noborder {
   border: none; }
+  /* line 67, D:/QUB Work/sass/_sass-tutorial-global.scss */
+  .noborder tr, .noborder th, .noborder td {
+    border: none; }
 
 /*templates using tables for layout - images_in_line_align_centre, images_in_line_align_centre_with_links */
-/* line 69, D:/QUB Work/sass/_sass-tutorial-global.scss */
+/* line 72, D:/QUB Work/sass/_sass-tutorial-global.scss */
 #images_in_line_align_centre tr, #images_in_line_align_centre td, #images_in_line_align_centre th {
   padding: 0;
   border: 0; }
 
-/* line 72, D:/QUB Work/sass/_sass-tutorial-global.scss */
+/* line 75, D:/QUB Work/sass/_sass-tutorial-global.scss */
 #images_in_line_align_centre_with_links tr, #images_in_line_align_centre_with_links td, #images_in_line_align_centre_with_links th {
   padding: 0;
   border: 0; }
 
 /****TYPOGRAPHY: NOTICE****/
-/* line 79, D:/QUB Work/sass/_sass-tutorial-global.scss */
+/* line 82, D:/QUB Work/sass/_sass-tutorial-global.scss */
 blockquote {
   background-attachment: scroll;
   background-clip: border-box;
@@ -344,42 +343,42 @@ blockquote {
   text-align: justify; }
 
 /***** Links *****/
-/* line 108, D:/QUB Work/sass/_sass-tutorial-global.scss */
+/* line 111, D:/QUB Work/sass/_sass-tutorial-global.scss */
 .grid_9 a:link, .grid_9 a:visited, .grid_9 a:hover, .grid_9 a:active {
   color: #AF1E2D; }
 
-/* line 109, D:/QUB Work/sass/_sass-tutorial-global.scss */
+/* line 112, D:/QUB Work/sass/_sass-tutorial-global.scss */
 .video_text_block a:link, .video_text_block a:visited, .video_text_block a:hover, .video_text_block a:active {
   color: #fff; }
 
 /***** Embed Video *****/
-/* line 113, D:/QUB Work/sass/_sass-tutorial-global.scss */
+/* line 116, D:/QUB Work/sass/_sass-tutorial-global.scss */
 .tm_embedvideo_videosource {
   display: none; }
 
-/* line 117, D:/QUB Work/sass/_sass-tutorial-global.scss */
+/* line 120, D:/QUB Work/sass/_sass-tutorial-global.scss */
 .video-js {
   max-width: 100%;
   width: 100%;
   margin: 1em 0; }
 
 /*misc*/
-/* line 125, D:/QUB Work/sass/_sass-tutorial-global.scss */
+/* line 128, D:/QUB Work/sass/_sass-tutorial-global.scss */
 #cf-menu {
   display: none;
   /* show study at queens menu across the course finder */ }
 
-/* line 126, D:/QUB Work/sass/_sass-tutorial-global.scss */
+/* line 129, D:/QUB Work/sass/_sass-tutorial-global.scss */
 .clearer {
   clear: both; }
 
 /*standard slimbox/fancybox padding for galleries*/
-/* line 130, D:/QUB Work/sass/_sass-tutorial-global.scss */
+/* line 133, D:/QUB Work/sass/_sass-tutorial-global.scss */
 .fancybox img {
   margin: 0 10px 10px 0; }
 
 /*slideshow padding for caption too wide (extra 10px to right)*/
-/* line 136, D:/QUB Work/sass/_sass-tutorial-global.scss */
+/* line 139, D:/QUB Work/sass/_sass-tutorial-global.scss */
 #slideshow .caption {
   padding: 10px 5px; }
 
