@@ -1,37 +1,38 @@
-/* Main search form */
+//main search form
 #main_search form input {
-    margin: 0px 3px 0px 0px;
-    padding: 0px 2px 0px 4px;
+    margin: 0 3px 0 0;
+    padding: 0 2px 0 4px;
     width: 155px;
     height: 25px; 
-    border: 0px;
+    border: 0;
     background: transparent;
     color: #7f7467;
     font-weight: bold;
     font-size: 80%;
     float: left;
-    }	
-#main_search .submit_button {
-    border: 0px;
-    vertical-align: middle;
-    height: 27px;
-    width: 21px;
-    }	
-.submit input {
-    border: 0px;
-    color: #7f7467;
-    }
+    
+    .submit_button {
+        border: 0px;
+        vertical-align: middle;
+        height: 27px;
+        width: 21px;
+        }	
+    .submit input {
+        border: 0px;
+        color: #7f7467;
+        }    
+}	
 
-/*--------[ Form ] ---------*/
+//form
 .magnifying_glass {
     vertical-align: middle;
     }	
 .search_box {
-    margin: 0px 0px 0px 0px;
-    padding: 1px 0px 1px 0px;
+    margin: 0;
+    padding: 1px 0 1px 0;
     color: #7f7467;
     vertical-align: middle;
     font-size: 125%;
     float: right;
     width: 183px;
-    }
+}
