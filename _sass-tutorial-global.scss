@@ -62,7 +62,10 @@ td, th {padding: 5px; border:1px solid #999}
 }
 
 /*apply class noborder to remove borders*/
-.noborder, .noborder tr, .noborder th, .noborder td { border: none; }
+.noborder{
+    border: none;
+    tr, th, td { border: none; }
+}
 
 
 /*templates using tables for layout - images_in_line_align_centre, images_in_line_align_centre_with_links */
