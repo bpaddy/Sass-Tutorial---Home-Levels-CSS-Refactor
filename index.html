@@ -1,22 +1,473 @@
-<!doctype html>
 
-<html lang="en">
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">   
 <head>
-  <meta charset="utf-8">
+  
+  
+   <!-- Nav Object to pick up Site Config section content --> 
+  
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-language" content="en" />   
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <meta name="keywords" content="Queen's, University, UK, Research, Belfast, Education, QUB, Students, Prospective students, We are Exceptional" />
+<!-- meta description -->
+    <meta name="description" content="One of the UK's leading research intensive universities, Queen's University's heritage stretches back 160 years" />
+<!-- meta keywords-->
+    <meta name="author" content="Queen's University Belfast" />
+<!-- meta author -->
+    <meta name="copyright" content="Queen's University Belfast 2010" />
+<!-- meta copyright-->
+        <!-- include META tags -->  
+  
+  <title>Queen's University Belfast | Study at Queen's</title>     
+  
+  
 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+<!-- load jquery from CDN -->
+<script src="//www.qub.ac.uk/js/jquery/jquery.min.js"></script>
+<script src="//www.qub.ac.uk/js/jquery/jquery-ui.min.js"></script>
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+<!-- fancybox (lightbox for jquery - http://fancyapps.com/fancybox/) -->
+<link type="text/css" href="//www.qub.ac.uk/js/jquery/plugins/fancybox/jquery.fancybox.css" rel="stylesheet" />
+<script src="//www.qub.ac.uk/js/jquery/plugins/fancybox/jquery.fancybox.pack.js"></script>
 
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-</head>
+<!-- slidesjs (slideshow for jquery - http://www.slidesjs.com/) -->
+<link type="text/css" href="//www.qub.ac.uk/js/jquery/plugins/slides/jquery.slides.css" rel="stylesheet" />
+<script src="//www.qub.ac.uk/js/jquery/plugins/slides/jquery.slides.min.js"></script>
 
-<body>
-    fjkfghf
-  <script src="js/scripts.js"></script>
-</body>
+
+<!-- videojs (open source video player - http://www.videojs.com/) -->
+<link type="text/css" href="//www.qub.ac.uk/js/video-js/video-js.min.css" rel="stylesheet" />
+<script type="text/javascript" src="//www.qub.ac.uk/js/video-js/video.js"></script>
+<script>
+  videojs.options.flash.swf = "//www.qub.ac.uk/js/video-js/video-js.swf"
+</script>
+
+
+<style type="text/css">
+/*override jqueryui defaults*/
+.ui-widget { font-family: inherit; font-size: inherit; }
+
+/*tabbed content*/
+ul#tabs-nav { margin: 0; font-size: 0.9em; padding: .2em .2em 0; }
+ul#tabs-nav li { list-style-image: none; margin: 0 .2em 1px 0; padding: 0; }
+
+
+/*sortable list styling*/
+.sortable-list { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+.sortable-list li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; cursor: move; height: 18px; }
+.sortable-list li span { position: absolute; margin-left: -1.3em; }
+
+/*accordion*/
+#accordion h3.toggler, #accordion .element {border:none;border-radius: 0; border-bottom: 1px solid #ffffff;}
+#accordion h3.toggler{background:#666; margin:0; cursor:pointer; color:#fff;}
+#accordion .element{background:#ddd; padding:10px;}
+
+</style>
+ <!-- JS includes -->  
+ 
+  <link rel="stylesheet" type="text/css" href="main.css" /><!-- main.css (html5 boilerplate) -->
+  <link rel="stylesheet" type="text/css" href="/home/media/Media,291110,en.css" /> <!-- template-standardised css 960 Grid -->   
+  
+  <link rel="stylesheet" type="text/css" href="/home/media/Media,224952,en.css" /> <!-- 960 grid css (12 cols) -->
+
+  <link rel="stylesheet" type="text/css" href="/home/styles/style-455099.css" /><!-- site style -->  
+  <link rel="stylesheet" type="text/css" href="/home/media/Media,289028,en.css" /><!-- mobile.css -->
+
+ 
+  
+<!--    <style type="text/css">     
+body { background: url('/home/media/Media,245035,en.gif') no-repeat scroll center 80px transparent; }    
+</style>  -->        
+
+
+
+<!-- PLEASE NOTE: USED IN VARIOUS SELECT LISTS AS OF 05/09/2011 -->
+<script type="text/javascript">
+/* <![CDATA[ */
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+<!-- The Quick Link Menu creates a new pop-up window -->
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+/* ]]> */
+</script>
+
+<style type="text/css">
+#levels-content #accordion h3.toggler { background: #a5222a; border-bottom: 1px solid white; }
+
+#col_right #vertical_nav img { margin: 0 4px; }
+
+</style> <!-- Custom CSS - This allows users to overide CSS defined in the style for parent, sibling and descendant levels -->
+
+ <!-- Google Analytics -->
+
+</head>       
+
+<body id="two-column">
+  
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M9BRBF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M9BRBF');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Tag Manager Code -->   
+  
+<a name="top"></a>
+<a href="#maincontent" class="visuallyhidden">Skip to main content</a>
+  
+  
+  
+		<div id="header_wrap">
+			<div id="header_holder">
+				<div id="header_logo">
+					<a href="http://www.qub.ac.uk/"><img src="/home/media/Media,239044,en.png" alt="Queen's University Belfast" title="Queen's University Belfast" /></a>
+				</div> <!--End Header Logo-->
+			
+				<div id="header_right">
+                  
+					<div id="main_search">
+          				<form id="seek2" name="seek2" accept-charset="iso-8859-1" action="http://internet.qol.qub.ac.uk/search/results.aspx" method="get" target="_blank">      
+					          <label for="q"><input type="text" class="search_box_bg search_box" id="q" value="search" onfocus="value=''"  name="k" /></label> <input type="image" src="http://www.qub.ac.uk/sites/media/Media,226089,en.png" value="Go" alt="Search" class="submit_button" />
+						</form>	
+        			</div>
+
+					<nav class="social-media">
+						<ul>
+							<li><a title="Twitter" href="https://twitter.com/queensubelfast"><img src="/home/media/Media,454606,en.png" alt="Twitter_25W_25H" style="width:25px; height:25px;" /></a></li>  <!-- Twitter -->
+							<li><a title="Facebook" href="https://www.facebook.com/QueensUniversityBelfast"><img src="/home/media/Media,454602,en.png" alt="Facebook_25W_25H" style="width:25px; height:25px;" /></a></li>  <!-- Facebook -->
+							<li><a title="Instagram" href="http://instagram.com/queensubelfast"><img src="/home/media/Media,454603,en.png" alt="Instagram_25W_25H" style="width:25px; height:25px;" /></a></li>  <!-- Instagram -->
+							<li><a title="YouTube" href="http://www.youtube.com/user/Come2Queens"><img src="/home/media/Media,454607,en.png" alt="Youtube_25W_25H" style="width:25px; height:25px;" /></a></li>  <!-- YouTube -->
+							<li><a title="RSS News Stream" href="http://www.qub.ac.uk/home/RSS/QueensNews/index.xml"><img src="/home/media/Media,454605,en.png" alt="RSS_25W_25H" style="width:25px; height:25px;" /></a></li> <!-- RSS News Stream -->
+						</ul>
+					</nav>              
+                  
+					<ul id="mega">
+<li class="first"><a href="/home/StudyatQueens/">Study at Queen's</a></li>
+<li><a title="QUB%20%BB%20Home%20%BB%20Research%20and%20Enterprise" href="/home/ResearchandEnterprise/">Research</a></li>
+<li><a title="QUB &amp;raquo; Home &amp;raquo; Development &amp;amp; Alumni Relations Office" href="/home/Alumni/">Alumni and Supporters</a></li>
+<li><a href="/home/StudyatQueens/LifeinBelfast/">Life in Belfast</a></li>
+<li><a href="/home/TheUniversity/AboutQueens/">About Queen's</a></li>
+</ul>						
+				</div> <!--End Header Logo2-->		
+				<div class="clearer"></div>
+			</div> <!--/header_holder-->	
+		</div><!--/#header_wrap	-->  
+  
+  
+  
+
+
+<!-- ******************** -->
+
+<div id="main_content_holder" class="container_12 two-column clearfix">
+<!-- end header -->
+<div class="grid_12 bread-crumb">
+	<ul class="menu"><li><a href="/home/">Home</a>&nbsp;&gt;&nbsp;</li><li>Study at Queen's</li></ul>
+</div>
+
+<a name="maincontent"></a>
+<h1 id="page_title" class="grid_12" >Study at Queen's</h1>
+<div class="grid_9" id="levels-content">
+<!-- slide -->
+
+<script type="text/javascript">  
+    jQuery(function(){
+  
+  //if more than one slide in slideshow  
+  if (jQuery('#slideshow').children().length > 1){
+  
+      jQuery("#slideshow").slidesjs({
+        width: 720,
+        height: 310,
+  	play: {
+	      	interval: 5000,
+	        // [number] Time spent on each slide in milliseconds.
+	     	auto: true
+	        // [boolean] Start playing the slideshow on load.
+  		, effect: "slide"  
+	},
+  	navigation: {
+                active: false
+                //hide prev and next buttons
+        }
+    	 , pagination: { effect: "slide" }
+ 	  
+
+  
+      });
+  
+  } //close slideshow length > 1 if statement
+  
+});
+</script>
+
+<style type="text/css">
+  #slideshow{
+  	display:block;
+  }
+  
+  
+  #slideshow, #slideshow img{
+  	width: 720px;
+    height: 310px;
+  }
+  
+  /*remove 20px for the caption padding*/
+  #slideshow .caption{
+  	width: 710px;
+  }    
+</style>
+
+
+<div id="slideshow-container">
+                                       
+  <div id="slideshow">
+          
+                <div>
+                  <img src="/home/StudyatQueens/Image1,450709,en.jpg" alt="" />
+                  
+                </div>
+
+    
+          
+                <div>
+                  <img src="/home/StudyatQueens/Image3,450709,en.jpg" alt="" />
+                  
+                </div>
+  
+    
+                      
+  </div><!-- end div#slideshow  -->
+  
+</div><!-- end div#slideshow-container --><!-- html body only template START --> 
+<div class="tm_htmlbodyonly_wrapper">
+<div class="findACourse"> <a class="anchorLink" name="d.en.451732"></a> <p>&zwnj;<a href="/home/StudyatQueens/CourseFinder/"><img src="/home/media/Media,451556,en.jpg" alt="" style="width:700px; height:70px;" /></a>&zwnj;</p></div>
+</div>
+<!-- html body only template END --><style type="text/css">
+.tm_threecolumnlayout_wrapper{width: 100%;  margin-bottom:10px;}
+.tm_threecolumnlayout_contentleft, .tm_threecolumnlayout_contentcentre, .tm_threecolumnlayout_contentright{width: 31%; float: left; margin-right: 2%;}
+.tm_threecolumnlayout_contentright{margin-right: none;}
+</style>
+
+<div class="tm_threecolumnlayout_wrapper clearfix " >
+<a name="d.en.447458"></a>
+
+<div class="grid_3 alpha"><p><a href="http://www.qub.ac.uk/home/StudyatQueens/UndergraduateStudents/" target="_blank"><img src="/home/media/Media,511412,en.jpg" alt="Undergraduate course finder" style="width:220px; height:180px;" /></a><a href="/home/StudyatQueens/UndergraduateStudents/">‌</a>&zwnj;</p> 
+</div>
+
+
+<div class="grid_3"><p><a href="http://www.qub.ac.uk/home/StudyatQueens/PostgraduateStudents/" target="_blank"><img src="/home/media/Media,511413,en.jpg" alt="Postgraduate course finder" style="width:220px; height:180px;" /></a><a href="/home/StudyatQueens/PostgraduateStudents/">‌</a>&zwnj;</p>
+</div>
+
+
+<div class="grid_3 omega"><p><a href="http://www.qub.ac.uk/home/QueensInternational/Studywithus/" target="_blank"><img src="/home/media/Media,511414,en.jpg" alt="International students course finder" style="width:220px; height:180px;" /></a><a href="/home/StudyatQueens/InternationalStudents/">‌</a>&zwnj;</p>
+</div>
+<div style="clear: both;"></div>
+</div><style type="text/css">
+.tm_threecolumnlayout_wrapper{width: 100%;  margin-bottom:10px;}
+.tm_threecolumnlayout_contentleft, .tm_threecolumnlayout_contentcentre, .tm_threecolumnlayout_contentright{width: 31%; float: left; margin-right: 2%;}
+.tm_threecolumnlayout_contentright{margin-right: none;}
+</style>
+
+<div class="tm_threecolumnlayout_wrapper clearfix " >
+<a name="d.en.447459"></a>
+
+<div class="grid_3 alpha"><p>&zwnj;<a href="http://knock.qub.ac.uk/myqueens/login.php" target="_blank"><img src="/home/media/Media,511415,en.jpg" alt="Request more information" style="width:220px; height:180px;" /></a>&zwnj;</p> 
+</div>
+
+
+<div class="grid_3"><p>&zwnj;&zwnj;<a href="http://www.qub.ac.uk/home/StudyatQueens/DownloadaProspectus/"><img src="/home/media/Media,511416,en.jpg" alt="Download a prospectus" style="width:220px; height:180px;" /></a>&zwnj;</p>
+</div>
+
+
+<div class="grid_3 omega"><p>&zwnj;<a href="http://www.qub.ac.uk/home/StudyatQueens/LifeinBelfast/"><img src="/home/media/Media,511417,en.jpg" alt="Explore Belfast" style="width:220px; height:180px;" /></a>&zwnj;<a href="/home/StudyatQueens/LifeinBelfast/">‌</a><a href="/home/StudyatQueens/LifeinBelfast/">‌</a>&zwnj;</p>
+</div>
+<div style="clear: both;"></div>
+</div><style type="text/css">
+  #player_447467 {
+  	width:700px; height:250px;
+  }
+  
+  .link-to-video-file{
+  	display:none;
+  }
+  
+</style>
+
+
+<!--[if lt IE 9]>
+<style type="text/css">
+  .link-to-video-file {
+  	display:block;
+  }
+</style>
+<![endif]-->
+
+
+
+
+
+<div class="tm_embedvideo_wrapper"> <a class="anchorLink" name="d.en.447467"></a>
+  <video poster="/home/StudyatQueens/Pre-PlaySplashImage,447467,en.jpg"  id="player_447467" class="video-js vjs-default-skin" controls preload="auto" width="700" height="250" data-setup="{}">
+    <source src="http://www.mediator.qub.ac.uk/ms/streams/cms/mra/StudentExperience.mp4" type="video/mp4" />  </video> 
+  <div class="link-to-video-file">
+    <a href="http://www.mediator.qub.ac.uk/ms/streams/cms/mra/StudentExperience.mp4">Download video</a>
+  </div>
+</div>
+   </div><!--/#levels-content -->  
+
+
+
+<div class="grid_3" id="col_right">
+  <div id="vertical_nav">
+    <div id="vertical_menu_list">
+      <h3>Related content</h3>
+      <ul><li><a href="/home/StudyatQueens/CourseFinder/">Course Finder</a></li><li><a href="/home/StudyatQueens/UndergraduateStudents/">Undergraduate Students</a></li><li><a href="/home/StudyatQueens/PostgraduateStudies/">Postgraduate Studies</a></li><li><a href="/home/StudyatQueens/InternationalStudents/">International Students</a></li><li><a href="/home/StudyatQueens/FeesandScholarships/">Fees and Scholarships </a></li><li><a href="/home/StudyatQueens/LifeinBelfast/">Life in Belfast</a></li><li><a href="/home/StudyatQueens/VisitUs/">Visit Us</a></li><li><a href="/home/StudyatQueens/CampusLife/">Campus Life</a></li><li><a href="/home/StudyatQueens/WideningAccessandParticipationPlan/">Widening Access and Participation Plan</a></li><li><a href="/home/StudyatQueens/careers/">Information for Careers Advisers</a></li><li><a href="/home/StudyatQueens/AskaQuestion/">Ask a Question</a></li></ul><!-- nav obj : QUB 2011 Lower Levels -->
+    </div>
+
+    <div id="rc-rightcolumn"><!-- html body only template START --> 
+<div class="tm_htmlbodyonly_wrapper">
+<div> <a class="anchorLink" name="d.en.495251"></a> <p><a title="Ask%20a%20Question" href="/home/StudyatQueens/AskaQuestion/"><img src="/home/media/Media,504551,en.JPG" alt="Getintouch" style="width:220px; height:112px;" /></a>&zwnj;&zwnj;&zwnj;&zwnj;</p>
+<p><a href="http://www.qub.ac.uk/home/StudyatQueens/LifeinBelfast/"><img src="/home/media/Media,514280,en.jpg" alt="Belfast-affordable-ad" style="width:220px; height:220px;" /></a>&zwnj;</p></div>
+</div>
+<!-- html body only template END --></div><!-- nav obj : Right Column Content -->
+  </div><!--/End vertical_nav-->
+</div><!--End col_left-->
+
+   <!-- start footer -->
+</div><!--/#main_content_holder -->     
+        
+<div class="clear"></div>
+
+<div id="footer_wrap">	
+					
+
+<div id="footer" class="clearfix">
+ <div class="container">
+  
+<!-- html body only template START --> 
+<div class="tm_htmlbodyonly_wrapper">
+<div class="grid_4 alpha"> <a class="anchorLink" name="d.en.452874"></a> <h3>STUDY</h3>
+<ul>
+<li><a title="Undergraduate%20Students" href="/home/StudyatQueens/UndergraduateStudents/">Undergraduates</a></li>
+<li><a title="Postgraduate%20Studies" href="/home/StudyatQueens/PostgraduateStudies/">Postgraduates</a></li>
+<li><a title="International%20Students" href="/home/StudyatQueens/InternationalStudents/">International Students</a></li>
+<li><a href="http://www.qub.ac.uk/directorates/AcademicStudentAffairs/CentreforEducationalDevelopment/MassiveOpenOnlineCourses/" title="Massive%20Open%20Online%20Courses | Links to: Massive Open Online Courses">MOOCs at Queen's</a></li>
+<li><a href="/home/StudyatQueens/InternationalStudents/Howtoapply/INTOQueensAcademicandEnglishLanguagePreparationCourses/">INTO Queen's</a></li>
+</ul></div>
+</div>
+<!-- html body only template END --><!-- html body only template START --> 
+<div class="tm_htmlbodyonly_wrapper">
+<div class="grid_4"> <a class="anchorLink" name="d.en.452875"></a> <h3>DISCOVER</h3>
+<ul>
+<li><a title="About%20Queen%27s" href="/home/TheUniversity/AboutQueens/">About Queen's<br /></a></li>
+<li><a href="http://www.qub.ac.uk/home/QueensInternational//">International</a></li>
+<li><a href="http://www.queenseventus.com/sites/Eventus/QueensWelcomeCentre/" target="_blank">Welcome Centre</a></li>
+<li><a href="/home/StudyatQueens/VisitUs/">Book a Campus Tour</a></li>
+<li><a title="Campus%20Map%20and%20Travel" href="/home/StudyatQueens/LifeinBelfast/campusmapandtravel/">Campus Map and Travel</a></li>
+<li><a title="Life%20in%20Belfast" href="/home/StudyatQueens/LifeinBelfast/">Belfast</a></li>
+</ul></div>
+</div>
+<!-- html body only template END --><!-- html body only template START --> 
+<div class="tm_htmlbodyonly_wrapper">
+<div class="grid_4"> <a class="anchorLink" name="d.en.452877"></a> <h3>OUR CAMPUS</h3>
+<ul>
+<li><a href="http://www.stayatqueens.com/" title="Accommodation">Accommodation</a></li>
+<li><a href="http://www.qub.ac.uk/lib/" title="Library">Library</a></li>
+<li><a href="http://www.qub.ac.uk/sport/" title="Queen's Sport">Queen's Sport</a></li>
+<li><a href="http://www.qubsu.org/" title="Students' Union">Students' Union</a></li>
+<li><a href="http://www.qub.ac.uk/directorates/sgc/" title="Student Guidance Centre">Student Guidance Centre</a></li>
+<li><a href="http://www.qub.ac.uk/sites/investinginthefuture/" title="Investing in the future">Investing in the Future</a></li>
+<!-- <li>Investing in Our Future</li> --></ul></div>
+</div>
+<!-- html body only template END --><!-- html body only template START --> 
+<div class="tm_htmlbodyonly_wrapper">
+<div class="grid_4 omega"> <a class="anchorLink" name="d.en.452879"></a> <h3>STAFF AND STUDENTS</h3>
+<ul>
+<li><a title="Staff%20Gateway" href="/home/ceao/StaffGateway/">Current Staff</a></li>
+<li><a title="Student%20Gateway" href="/home/TheUniversity/GeneralServices/Informationfor/Students/">Current Students</a></li>
+<li><a title="Staff%20Contact%20Details" href="/home/TheUniversity/StaffContactDetails/">Staff Lookup</a></li>
+<li><a href="http://www.qub.ac.uk/sites/EmployerGateway-RecruitOurStudents/" target="_blank">Recruit Our Students</a></li>
+<li><a title="Schools%20%26%20Departments" href="/home/SchoolsDepartments/">Faculties and Schools</a></li>
+</ul></div>
+</div>
+<!-- html body only template END -->
+ </div><!--/container-->
+</div><!--/footer-->
+
+		</div> <!--close /footer_wrap-->   
+<div class="clearer"></div>    
+
+<div id="footer_bottom_wrap">
+<ul id="footer_bottom">      
+	<li id="footerAnniversaryPrizes" class="first"><img src="/home/media/Media,280596,en.jpg" alt="The Queen's Anniversary Prizes - Logo" title="The Queen's Anniversary Prizes - Logo" /></li>
+	<li id="footerRusselGroup"><a href="http://www.qub.ac.uk/home/ceao/News/RussellGroupMembership/"><img alt="Russell Group - Logo" title="Russell Group - Logo" src="/home/media/Media,241643,en.gif" /></a></li> 
+
+
+	<li id="footerQAA"><a href="http://www.qaa.ac.uk/reviews-and-reports/provider?UKPRN=10005343#.VHwzy8kudv-"><img src="/home/media/Media,394593,en.jpg" alt="QAA Quality Mark thumbnail" title="QAA checks how UK universities and colleges maintain the standard of their higher education provision. Click here to read this institution's latest review report. The QAA diamond logo and 'QAA' are registered trademarks of the Quality Assurance Agency for Higher Education." /></a></li>
+	<!-- <li id="footerWeAreExceptional"><img src="/home/media/Media,251044,en.jpg" alt="Queen's University Belfast - We Are Exceptional" title="Queen's University Belfast - We Are Exceptional"></li> -->
+
+
+	<li id="athena-swan"><a href="http://www.qub.ac.uk/home/ceao/News/ArchivedPressReleases/2012PressReleases/04-2012PressReleases/#d.en.291931"><img src="/home/media/Media,358111,en.png" alt="Athena SWAN Silver Award" title="Athena SWAN Silver Award" /></a></li>
+        
+	<li id="together-beyond"><a href="http://www.queensfoundation.com/"><img src="/home/media/Media,387434,en.png" alt="Together We Can Go Beyond" title="Together We Can Go Beyond" /></a></li>   
+	<li id="footerAddress"><span id="qub-footer-address-inc">
+&copy; Queen's University Belfast 2015, University Road Belfast, BT7 1NN, Northern Ireland, UK.
+</span>
+<span id="qub-footer-links-inc">
+<a href="http://www.qub.ac.uk/home/TheUniversity/GeneralServices/Quicklinks/EmailUs/">Email us</a> | <a href="http://www.qub.ac.uk/home/TheUniversity/AboutQueens/KeyContacts/">Contacts</a> | <a href="http://www.qub.ac.uk/home/Legal">Legal</a> | <a href="http://www.qub.ac.uk/home/Accessibility/">Accessibility</a>
+</span></li>
+        
+	<li id="footerContact"><span>T: +44(0) 2890 245133 </span><span><b>Emergency</b> T: +44(0) 2890 972222</span><span> W: <a href="http://www.qub.ac.uk/">http://www.qub.ac.uk/</a><span id="social-media-inc"><a href="http://www.facebook.com/pages/Queens-University-Belfast/39989884514"><img class="facebook" src="/home/media/Media,233208,en.png" alt="Facebook icon" /></a>  <a href="http://twitter.com/queensubelfast"><img class="twitter" src="/home/media/Media,293384,en.png" alt="Twitter icon" /></a>
+</span></span></li>
+</ul> <!-- QUB Main Footer - With Athena Swan Image - April 2012 -->
+</div>   
+   
+<script src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
+<script src="/home/media/Media,374941,en.js" type="text/javascript"></script>
+<script type="text/javascript">//<![CDATA[
+  cookieControl({
+      introText:'<p>This site uses some unobtrusive cookies to store information on your computer.</p>',
+      fullText:'<p>Some cookies on this site are essential and we don\'t generally turn these off as aspects of this site will not work as expected without them. These cookies are generated when you interact with the site and they are required to provide you with a requested service. If you want to turn all cookies off you will need to update your browser settings.</p><p>We also use some non-essential cookies to anonymously track visitors for analysis and statistical purposes with the goal of enhancing the user experience, Google Analytics is used to to gather the information and it it will store cookies on your machine.</p><p>For a full overview of our Cookie Statement and other relevant information <a href="http://www.qub.ac.uk/home/Legal/">click here</a>.</p>',
+      position:'left', // left or right
+      shape:'triangle', // triangle or diamond
+      theme:'dark', // light or dark
+      startOpen:false,
+      autoHide:6000,
+      subdomains:true,
+      protectedCookies: [], //list the cookies you do not want deleted ['analytics', 'twitter']
+      consentModel:'information_only',
+      onAccept:function(){},
+      onReady:function(){},
+      onCookiesAllowed:function(){},
+      onCookiesNotAllowed:function(){},
+      countries:'United Kingdom' // Or supply a list ['United Kingdom', 'Greece']
+      });
+   //]]>
+</script>  
+
+<!-- nav obj :custom script -->	
+
+</body>  
 </html>
