@@ -1,0 +1,6 @@
+//MIXINS
+    @mixin centre-float() {
+        margin: auto;
+        width: $content-width;
+
+    }

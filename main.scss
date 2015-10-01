@@ -1,0 +1,15 @@
+    //MODULES	
+	@import 'modules/colors';
+	@import 'modules/mixins';
+    	
+	//PARTIALS (layout)
+	@import 'partials/global';   
+	@import 'partials/header';
+	@import 'partials/menus';
+	@import 'partials/breadcrumb';
+	@import 'partials/forms';
+	@import 'partials/footer';
+
+    //VENDOR
+	@import 'vendor/jqueryui';   
+	
