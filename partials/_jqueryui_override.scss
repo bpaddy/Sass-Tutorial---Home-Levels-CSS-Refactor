@@ -1,0 +1,27 @@
+
+/*override jqueryui defaults*/
+.ui-widget { font-family: inherit; font-size: inherit; }
+
+/*tabbed content*/
+ul#tabs-nav { 
+    margin: 0; font-size: 0.9em; padding: .2em .2em 0;
+    li { list-style-image: none; margin: 0 .2em 1px 0; padding: 0; }
+}
+
+
+/*sortable list styling*/
+.sortable-list { 
+    list-style-type: none; margin: 0; padding: 0; width: 60%;
+    li { 
+        margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; cursor: move; height: 18px; 
+        span { position: absolute; margin-left: -1.3em; }
+    }
+}
+
+
+/*accordion*/
+#accordion { 
+    h3.toggler, .element {border:none;border-radius: 0; border-bottom: 1px solid #ffffff;}
+    h3.toggler{background:#666; margin:0; cursor:pointer; color:#fff;}
+    .element{background:#ddd; padding:10px;}
+}

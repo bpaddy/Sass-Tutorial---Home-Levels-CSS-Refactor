@@ -1,18 +1,27 @@
+    //VENDOR
+	@import 'vendor/normalise';   
+	@import 'vendor/html5-boilerplate';   
+	@import 'vendor/jqueryui';   
+	@import 'vendor/960-grid';   
+    
+
     //MODULES	
     //paddy added comment in github.com
 	@import 'modules/colors';
 	@import 'modules/mixins';
-    	
+	@import 'modules/placeholders';
+	@import 'modules/typography';
+	
 	//PARTIALS (layout)
+	@import 'partials/template_grid_override';   
+	@import 'partials/jqueryui_override';   
 	@import 'partials/global';   
 	@import 'partials/header';
 	@import 'partials/menus';
 	@import 'partials/breadcrumb';
 	@import 'partials/forms';
-	@import 'partials/footer';
+	@import 'partials/forms';
 
-    //VENDOR
-	@import 'vendor/normalise';   
-	@import 'vendor/jqueryui';   
-	@import 'vendor/960-grid';   
-	
+
+
+	@import 'partials/footer';

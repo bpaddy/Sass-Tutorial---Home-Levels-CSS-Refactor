@@ -1,0 +1,91 @@
+/**********************************************/
+/*ONE COLUMN STYLE - TOTAL CONTENT AREA 940px */
+
+/*2 COLS - 35/65*/
+body#one-column {
+    
+    .tm_twocol3565_contentleft { width:300px; margin:0px 10px 0px 0px; }
+    .tm_twocol3565_contentright { width:620px; margin:0px 0px 0px 10px; }
+
+    /*2 COLS - 65/35*/
+    .tm_twocol6535_contentleft { width:620px; margin:0px 10px 0px 0px; }
+    .tm_twocol6535_contentright { width:300px; margin:0px 0px 0px 10px; }
+
+    /*2 COLS - 50/50*/
+    .tm_twocolcontentcss_contentleft{width: 460px; margin:0px 10px 0px 0px; }
+    .tm_twocolcontentcss_contentright{width: 460px; margin:0px 0px 0px 10px; }
+
+
+    /*3 COLS*/
+    .tm_threecolumnlayout_contentleft { width:300px; margin:0px 10px 0px 0px; }
+    .tm_threecolumnlayout_contentcentre { width:300px; margin:0px 10px; }
+    .tm_threecolumnlayout_contentright { width:300px; margin:0px 0px 0px 10px; }
+
+
+    /*4 COLS - 25% each*/
+    .tm_fourcolumnlayout_columnone { width:220px; margin:0px 10px 0px 0px;  }
+    .tm_fourcolumnlayout_columntwo { width:220px; margin:0px 10px; }
+    .tm_fourcolumnlayout_columnthree { width:220px; margin:0px 10px; }
+    .tm_fourcolumnlayout_columnfour { width:220px; margin:0px 0px 0px 10px; }
+    
+}//close body#one-column
+
+
+
+/**********************************************/
+/*TWO COLUMN STYLE - TOTAL CONTENT AREA 700px */
+
+body#two-column {
+/*2 COLS - 50/50*/
+    .tm_twocolcontentcss_contentleft{width: 340px; margin:0px 10px 0px 0px; }
+    .tm_twocolcontentcss_contentright{width: 340px; margin:0px 0px 0px 10px; }
+
+    /*2 COLS - 35/65*/
+    .tm_twocol3565_contentleft { width:220px; margin:0px 10px 0px 0px; }
+    .tm_twocol3565_contentright { width:460px; margin:0px 0px 0px 10px; }
+
+    /*2 COLS - 65/35*/
+    .tm_twocol6535_contentleft { width:460px; margin:0px 10px 0px 0px; }
+    .tm_twocol6535_contentright { width:220px; margin:0px 0px 0px 10px; }
+
+    /*3 COLS*/
+    .tm_threecolumnlayout_contentleft { width:220px; margin:0px 10px 0px 0px; }
+    .tm_threecolumnlayout_contentcentre { width:220px; margin:0px 10px; }
+    .tm_threecolumnlayout_contentright { width:220px; margin:0px 0px 0px 10px; }
+
+    /*4 COLS - 25% each*/
+    .tm_fourcolumnlayout_columnone { width:160px; margin:0px 10px 0px 0px;  }
+    .tm_fourcolumnlayout_columntwo { width:160px; margin:0px 10px; }
+    .tm_fourcolumnlayout_columnthree { width:160px; margin:0px 10px; }
+    .tm_fourcolumnlayout_columnfour { width:160px; margin:0px 0px 0px 10px; }
+}//close body#two-column
+
+
+/**********************************************/
+/*THREE COLUMN STYLE - TOTAL CONTENT AREA 460px */
+
+body#three-column { 
+/*2 COLS - 50/50*/
+    .tm_twocolcontentcss_contentleft{width: 220px; margin:0px 10px 0px 0px; }
+    .tm_twocolcontentcss_contentright{width: 220px; margin:0px 0px 0px 10px; }
+
+    /*2 COLS - 35/65*/
+    .tm_twocol3565_contentleft { width:140px; margin:0px 10px 0px 0px; }
+    .tm_twocol3565_contentright { width:300px; margin:0px 0px 0px 10px; }
+
+    /*2 COLS - 65/35*/
+    .tm_twocol6535_contentleft { width:300px; margin:0px 10px 0px 0px; }
+    .tm_twocol6535_contentright { width:140px; margin:0px 0px 0px 10px; }
+
+    /*3 COLS*/
+    .tm_threecolumnlayout_contentleft { width:140px; margin:0px 10px 0px 0px; }
+    .tm_threecolumnlayout_contentcentre { width:140px; margin:0px 10px; }
+    .tm_threecolumnlayout_contentright { width:140px; margin:0px 0px 0px 10px; }
+
+    /*4 COLS - 25% each*/
+    .tm_fourcolumnlayout_columnone { width:100px; margin:0px 10px 0px 0px;  }
+    .tm_fourcolumnlayout_columntwo { width:100px; margin:0px 10px; }
+    .tm_fourcolumnlayout_columnthree { width:100px; margin:0px 10px; }
+    .tm_fourcolumnlayout_columnfour { width:100px; margin:0px 0px 0px 10px; }
+    
+}
